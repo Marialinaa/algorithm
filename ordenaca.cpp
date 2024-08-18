@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Funá∆o de ordenaá∆o por Insertion Sort em ordem crescente
+// Fun√ßao de ordena√ßao por Insertion Sort em ordem crescente
 void insertion_sort_crescente(int vetor[], int inicio, int fim) {
     for (int i = inicio + 1; i <= fim; i++) {
         int chave = vetor[i];
@@ -14,7 +14,7 @@ void insertion_sort_crescente(int vetor[], int inicio, int fim) {
     }
 }
 
-// Funá∆o de ordenaá∆o por Insertion Sort em ordem decrescente
+// Fun√ßao de ordena√ßao por Insertion Sort em ordem decrescente
 void insertion_sort_decrescente(int vetor[], int inicio, int fim) {
     for (int i = inicio + 1; i <= fim; i++) {
         int chave = vetor[i];
@@ -27,7 +27,7 @@ void insertion_sort_decrescente(int vetor[], int inicio, int fim) {
     }
 }
 
-// Funá∆o  de ordenaá∆o
+// Fun√ßao  de ordena√ßao
 void orde_sort(int vetor[], int tam) {
     int div = tam / 2;
 
