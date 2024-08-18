@@ -1,2 +1,3 @@
 # algorithm
- Ordenar Vetor Crescente e Decrescente
+ Ordenaçao Vetor c++
+ 
